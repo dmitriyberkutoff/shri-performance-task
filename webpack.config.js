@@ -3,7 +3,7 @@ const path = require('path');
 const stylesHandler = 'style-loader';
 
 const config = {
-    entry: './vendors/index.jsx',
+    entry: './vendors/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
     },
